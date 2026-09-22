@@ -10,10 +10,10 @@
  *   show_zwave:  true   (défaut: true)
  *   Couleur de fond: #000000
  *
- * @version 0.0.8
+ * @version 0.0.9
  */
 
-const NMC_VERSION = "0.0.8";
+const NMC_VERSION = "0.009";
 const NMC_NAME    = "network-monitor-card";
 const OFFLINE_MS  = 24 * 60 * 60 * 1000;
 
@@ -355,10 +355,10 @@ _zoneOf(entityId) {
       var rawName  = attrs.friendly_name || base.replace(/_/g, " ");
       // Nettoie tous les suffixes Z-Wave JS connus
       var friendly = rawName
+        .replace(/ Force du signal$/i, "")
         .replace(/ signal strength$/i, "")
         .replace(/ rssi$/i, "")
         .replace(/ signal$/i, "")
-        .replace(/ Force du signal$/i, "")
         .replace(/\s*\(\d+\)$/, "")   // retire (2), (3)...
         .replace(/_/g, " ")
         .trim();
