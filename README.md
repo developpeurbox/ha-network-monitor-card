@@ -135,4 +135,3 @@ L'éditeur visuel de Lovelace propose des cases à cocher pour ces deux options.
 [hacs]: https://github.com/hacs/integration
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io
-/
