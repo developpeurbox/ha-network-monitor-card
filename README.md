@@ -129,7 +129,7 @@ show_zwave: true    # Afficher le bandeau Z-Wave (défaut: true)
 L'éditeur visuel de Lovelace propose des cases à cocher pour ces deux options.
 
 
-[releases-shield]: https://img.shields.io/github/v/release/developpeurbox/network-monitor-card/?style=for-the-badge
+[releases-shield]: https://img.shields.io/github/v/release/developpeurbox/network-monitor-card?style=for-the-badge
 [releases]: https://github.com/developpeurbox/network-monitor-card/releases
 [hacs-badge]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge
 [hacs]: https://github.com/hacs/integration
