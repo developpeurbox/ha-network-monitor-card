@@ -358,6 +358,7 @@ _zoneOf(entityId) {
         .replace(/ signal strength$/i, "")
         .replace(/ rssi$/i, "")
         .replace(/ signal$/i, "")
+        .replace(/ force du signal$/i, "")
         .replace(/\s*\(\d+\)$/, "")   // retire (2), (3)...
         .replace(/_/g, " ")
         .trim();
