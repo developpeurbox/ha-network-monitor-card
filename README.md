@@ -8,6 +8,10 @@
 
 Carte Lovelace pour Home Assistant affichant l'état du réseau **Zigbee** et **Z-Wave** en temps réel, avec découverte automatique des appareils.
 
+
+![Network monitor card](/doc/images/example.png "Exemple d'affichage")
+
+
 ---
 
 ## ✨ Fonctionnalités
