@@ -2,19 +2,19 @@
  * network-monitor-card.js
  * Carte réseau Zigbee + Z-Wave pour Home Assistant
  *
- * /config/www/network-monitor-card.js
- * type: custom:network-monitor-card
+ * /config/www/ha-network-monitor-card.js
+ * type: custom:ha-network-monitor-card
  *
  * Options :
  *   show_zigbee: true   (défaut: true)
  *   show_zwave:  true   (défaut: true)
  *   Couleur de fond: #000000
  *
- * @version 0.0.9
+ * @version 0.1.1
  */
 
-const NMC_VERSION = "0.009";
-const NMC_NAME    = "network-monitor-card";
+const NMC_VERSION = "0.1.1";
+const NMC_NAME    = "ha-network-monitor-card";
 const OFFLINE_MS  = 24 * 60 * 60 * 1000;
 
 console.info(
