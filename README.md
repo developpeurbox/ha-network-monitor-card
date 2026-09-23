@@ -1,6 +1,7 @@
 [![GitHub Release][releases-shield]][releases]
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 [![Community Forum][forum-shield]][forum]
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https:E)
 
 
 # 📡 network-monitor-card
