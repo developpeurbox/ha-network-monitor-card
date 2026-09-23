@@ -1,4 +1,4 @@
-# 📡 network-monitor-card
+# 📡 Network Monitor Card
 
 [![GitHub Release]( https://img.shields.io/github/v/release/developpeurbox/ha-network-monitor-card?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/releases)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
