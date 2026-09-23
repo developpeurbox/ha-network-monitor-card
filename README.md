@@ -1,7 +1,6 @@
 [![GitHub Release][releases-shield]][releases]
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
-[![Community Forum][forum-shield]][forum]
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/developpeurbox/ha-network-monitor-card/blob/main/LICENSE)
+[![Community Forum][forum-shield]][forum][![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/developpeurbox/ha-network-monitor-card/blob/main/LICENSE)
 [![HACS Action](https://github.com/developpeurbox/ha-network-monitor-card/actions/workflows/hacs.yml/badge.svg)](https://github.com/developpeurbox/ha-network-monitor-card/actions/workflows/hacs.yml)
 
 # 📡 network-monitor-card
