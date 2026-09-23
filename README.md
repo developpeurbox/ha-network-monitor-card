@@ -1,7 +1,7 @@
 [![GitHub Release][releases-shield]][releases]
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 [![Community Forum][forum-shield]][forum]
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https:E)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/developpeurbox/ha-network-monitor-card/blob/main/LICENSE)
 
 
 # 📡 network-monitor-card
@@ -129,6 +129,10 @@ show_zwave: true    # Afficher le bandeau Z-Wave (défaut: true)
 
 L'éditeur visuel de Lovelace propose des cases à cocher pour ces deux options.
 
+
+## License
+
+MIT. See [LICENSE](LICENSE).
 
 [releases-shield]: https://img.shields.io/github/v/release/developpeurbox/ha-network-monitor-card?style=for-the-badge
 [releases]: https://github.com/developpeurbox/ha-network-monitor-card/releases
