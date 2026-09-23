@@ -18,7 +18,7 @@ const NMC_NAME    = "ha-network-monitor-card";
 const OFFLINE_MS  = 24 * 60 * 60 * 1000;
 
 console.info(
-  "%c NETWORK-MONITOR-CARD %c v" + NMC_VERSION + " ",
+  "%c HA-NETWORK-MONITOR-CARD %c v" + NMC_VERSION + " ",
   "background:#070b12;color:#2ecc71;font-weight:700;padding:2px 6px;border-radius:4px 0 0 4px;font-family:monospace",
   "background:#0e1420;color:#5d8aaa;font-weight:400;padding:2px 6px;border-radius:0 4px 4px 0;font-family:monospace"
 );
@@ -813,13 +813,13 @@ class NetworkMonitorCardEditor extends HTMLElement {
   }
 }
 
-customElements.define("network-monitor-card",        NetworkMonitorCard);
-customElements.define("network-monitor-card-editor", NetworkMonitorCardEditor);
+customElements.define("ha-network-monitor-card",        NetworkMonitorCard);
+customElements.define("ha-network-monitor-card-editor", NetworkMonitorCardEditor);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type:        "network-monitor-card",
-  name:        "Network Monitor Card",
+  type:        "ha-network-monitor-card",
+  name:        "HA Network Monitor Card",
   description: "Surveillance réseau Zigbee + Z-Wave avec découverte automatique",
   preview:     false,
 });
