@@ -28,14 +28,14 @@ Carte Lovelace pour Home Assistant affichant l'état du réseau **Zigbee** et **
 
 ### Via HACS (recommandé) 🔄
 1. Ajoutez ce dépôt à HACS :
-   **Dépôts personnalisés** → **Ajouter un dépôt personnalisé** → `https://github.com/developpeurbox/network-monitor-card/`
+   **Dépôts personnalisés** → **Ajouter un dépôt personnalisé** → `https://github.com/developpeurbox/ha-network-monitor-card`
 
 ### Ou manuellement 🛠️
 
-1. Télécharger le fichier `network-monitor-card.js`
+1. Télécharger le fichier `ha-network-monitor-card.js`
 2. Le copier dans le répertoire `/config/www/` de Home Assistant
 3. Dans HA : **Paramètres → Tableaux de bord → Ressources → Ajouter une ressource**
-   - URL : `/local/network-monitor-card.js`
+   - URL : `/local/ha-network-monitor-card.js`
    - Type : **Module JavaScript**
 4. Vider le cache du navigateur ou de l'app Android (**Paramètres → Compagnon → Vider le cache**)
 
@@ -129,8 +129,8 @@ show_zwave: true    # Afficher le bandeau Z-Wave (défaut: true)
 L'éditeur visuel de Lovelace propose des cases à cocher pour ces deux options.
 
 
-[releases-shield]: https://img.shields.io/github/v/release/developpeurbox/network-monitor-card?style=for-the-badge
-[releases]: https://github.com/developpeurbox/network-monitor-card/releases
+[releases-shield]: https://img.shields.io/github/v/release/developpeurbox/ha-network-monitor-card?style=for-the-badge
+[releases]: https://github.com/developpeurbox/ha-network-monitor-card/releases
 [hacs-badge]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge
 [hacs]: https://github.com/hacs/integration
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
