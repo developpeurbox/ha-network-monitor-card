@@ -1,12 +1,14 @@
-[![GitHub Release][releases-shield]][releases]
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
-[![Community Forum][forum-shield]][forum][![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/developpeurbox/ha-network-monitor-card/blob/main/LICENSE)
-[![HACS Action](https://github.com/developpeurbox/ha-network-monitor-card/actions/workflows/hacs.yml/badge.svg)](https://github.com/developpeurbox/ha-network-monitor-card/actions/workflows/hacs.yml)
-
 # 📡 network-monitor-card
 
-Carte Lovelace pour Home Assistant affichant l'état du réseau **Zigbee** et **Z-Wave** en temps réel, avec découverte automatique des appareils.
+[![GitHub Release]( https://img.shields.io/github/v/release/developpeurbox/ha-network-monitor-card?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/releases)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+[![Community Forum]( https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge)](https://community.home-assistant.io)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/blob/main/LICENSE)
 
+[![HACS Action](https://github.com/developpeurbox/ha-network-monitor-card/actions/workflows/hacs.yml/badge.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/actions/workflows/hacs.yml)  
+
+
+Carte Lovelace pour Home Assistant affichant l'état du réseau **Zigbee** et **Z-Wave** en temps réel, avec découverte automatique des appareils.
 
 ![Network monitor card](/doc/images/example.jpg "Exemple d'affichage")
 
@@ -137,9 +139,4 @@ L'éditeur visuel de Lovelace propose des cases à cocher pour ces deux options.
 
 MIT. See [LICENSE](LICENSE).
 
-[releases-shield]: https://img.shields.io/github/v/release/developpeurbox/ha-network-monitor-card?style=for-the-badge
-[releases]: https://github.com/developpeurbox/ha-network-monitor-card/releases
-[hacs-badge]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge
-[hacs]: https://github.com/hacs/integration
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
-[forum]: https://community.home-assistant.io
+
