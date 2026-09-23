@@ -10,10 +10,10 @@
  *   show_zwave:  true   (défaut: true)
  *   Couleur de fond: #000000
  *
- * @version 0.1.1
+ * @version 0.1.2
  */
 
-const NMC_VERSION = "0.1.1";
+const NMC_VERSION = "0.1.2";
 const NMC_NAME    = "ha-network-monitor-card";
 const OFFLINE_MS  = 24 * 60 * 60 * 1000;
 
