@@ -1,6 +1,6 @@
 # 📡 Network Monitor Card
 
-[![GitHub Release]( https://img.shields.io/github/v/release/developpeurbox/ha-network-monitor-card?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/releases)
+[![PayPal](https://img.shields.io/badge/paypal-me-blue.svg?style=for-the-badge&color=purple&logo=paypal&logoColor=ccc&link=https%3A%2F%2Fpaypal.me%2hlaissus/5)](https://paypal.me/hlaissus/5)[![GitHub Release]( https://img.shields.io/github/v/release/developpeurbox/ha-network-monitor-card?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/releases)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 [![Community Forum]( https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge)](https://community.home-assistant.io)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/blob/main/LICENSE)
