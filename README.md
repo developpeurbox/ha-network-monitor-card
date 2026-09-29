@@ -34,7 +34,9 @@ Carte Lovelace pour Home Assistant affichant l'état du réseau **Zigbee** et **
 
 ### Via HACS (recommandé) 🔄
 1. Ajoutez ce dépôt à HACS :
-   **Dépôts personnalisés** → **Ajouter un dépôt personnalisé** → `https://github.com/developpeurbox/ha-network-monitor-card`
+   **Dépôts personnalisés** → **Ajouter un dépôt personnalisé**
+
+   → `https://github.com/developpeurbox/ha-network-monitor-card`
 
 ### Ou manuellement 🛠️
 
@@ -127,7 +129,7 @@ Pour assigner une zone : **Paramètres → Appareils & Services → Appareils �
 ## ⚙️ Options de configuration
 
 ```yaml
-type: custom:network-monitor-card
+type: custom:ha-network-monitor-card
 show_zigbee: true   # Afficher le bandeau Zigbee (défaut: true)
 show_zwave: true    # Afficher le bandeau Z-Wave (défaut: true)
 ```
