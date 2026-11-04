@@ -12,7 +12,7 @@
  *
  */
 
-const NMC_VERSION = "v0.1.4";
+const NMC_VERSION = "0.1.5";
 const NMC_NAME    = "ha-network-monitor-card";
 const OFFLINE_MS  = 24 * 60 * 60 * 1000;
 
@@ -87,8 +87,7 @@ var ZW_FILTERS = [
   { key: "all",     label: "TOUS",       color: "#5d8aaa", test: function(d) { return true; } },
   { key: "ok",      label: "OK",         color: "#2ecc71", test: function(d) { return !d.offline && d.rssi !== null && d.rssi >= -75; } },
   { key: "weak",    label: "FAIBLE",     color: "#f39c12", test: function(d) { return !d.offline && d.rssi !== null && d.rssi < -75; } },
-  { key: "offline", label: "HORS LIGNE", color: "#4a6070", test: function(d) { return d.offl
-ine; } },
+  { key: "offline", label: "HORS LIGNE", color: "#4a6070", test: function(d) { return d.offline; } },
 ];
 
 // ─── CSS ──────────────────────────────────────────────────────────────────────
