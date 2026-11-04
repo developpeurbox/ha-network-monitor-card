@@ -12,12 +12,12 @@
  *
  */
 
-const NMC_VERSION = "0.1.5";
+const NMC_VERSION = "v0.1.5";
 const NMC_NAME    = "ha-network-monitor-card";
 const OFFLINE_MS  = 24 * 60 * 60 * 1000;
 
 console.info(
-  "%c HA-NETWORK-MONITOR-CARD %c v" + NMC_VERSION + " ",
+  "%c HA-NETWORK-MONITOR-CARD %c " + NMC_VERSION + " ",
   "background:#070b12;color:#2ecc71;font-weight:700;padding:2px 6px;border-radius:4px 0 0 4px;font-family:monospace",
   "background:#0e1420;color:#5d8aaa;font-weight:400;padding:2px 6px;border-radius:0 4px 4px 0;font-family:monospace"
 );
