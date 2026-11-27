@@ -4,6 +4,7 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 [![Community Forum]( https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge)](https://community.home-assistant.io)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/blob/main/LICENSE)
+![Téléchargements](https://img.shields.io/github/downloads/developpeurbox/ha-network-monitor/total?label=T%C3%A9l%C3%A9chargements)
 
 [![HACS Action](https://github.com/developpeurbox/ha-network-monitor-card/actions/workflows/hacs.yml/badge.svg?style=for-the-badge)](https://github.com/developpeurbox/ha-network-monitor-card/actions/workflows/hacs.yml)  
 
