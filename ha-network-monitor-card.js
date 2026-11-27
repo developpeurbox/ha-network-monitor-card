@@ -12,7 +12,7 @@
  *
  */
 
-const NMC_VERSION = "v0.1.5";
+const NMC_VERSION = "v0.2.0";
 const NMC_NAME    = "ha-network-monitor-card";
 const OFFLINE_MS  = 24 * 60 * 60 * 1000;
 
