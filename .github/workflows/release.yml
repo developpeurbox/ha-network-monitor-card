@@ -1,7 +1,7 @@
 name: Release
 
-# Se déclenche uniquement quand footao-game-card.js change sur main (donc
-# quand tu bumps  NMC_VERSION . "Run workflow" dispo aussi.
+# Se déclenche uniquement quand ha-network-monitor-card.js change sur main
+# (donc quand tu bumps NMC_VERSION). "Run workflow" dispo aussi.
 on:
   push:
     branches: [main]
@@ -24,6 +24,10 @@ jobs:
         id: version
         run: |
           VERSION=$(grep -oP 'NMC_VERSION = "v\K[0-9.]+' ha-network-monitor-card.js)
+          if [ -z "$VERSION" ]; then
+            echo "Version introuvable dans ha-network-monitor-card.js"
+            exit 1
+          fi
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Vérifier que le tag n'existe pas déjà
@@ -35,10 +39,21 @@ jobs:
             echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Préparer les notes (description du commit)
+        if: steps.check.outputs.exists == 'false'
+        run: |
+          # Description étendue du dernier commit (sans la ligne de titre)
+          git log -1 --pretty=format:'%b' > RELEASE_NOTES.md
+          # Si la description est vide, on met un texte par défaut
+          if [ ! -s RELEASE_NOTES.md ]; then
+            echo "Version ${{ steps.version.outputs.version }}" > RELEASE_NOTES.md
+          fi
+
       - name: Créer le tag + la release
         if: steps.check.outputs.exists == 'false'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.version }}
           name: v${{ steps.version.outputs.version }}
-          generate_release_notes: true
+          body_path: RELEASE_NOTES.md
+          files: ha-network-monitor-card.js
